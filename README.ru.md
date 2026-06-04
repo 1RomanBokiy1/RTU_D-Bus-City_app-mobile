@@ -93,8 +93,6 @@
 ![1](screenshots/img1.jpg)
 ![2](screenshots/img2.jpg)
 ![3](screenshots/img3.jpg)
-![4](screenshots/img4.jpg)
-![5](screenshots/img5.jpg)
 
 ---
 ## Известные ошибки и ограничения

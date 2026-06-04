@@ -1,95 +1,94 @@
-# Руководство по участию в разработке (Contributing)
+# Contributing to D-Bus City
 
-Спасибо за интерес к проекту D-Bus City.
+Thank you for your interest in contributing to the D-Bus City project.
 
-Данный документ описывает правила участия в разработке проекта, включая создание задач, предложение улучшений и внесение изменений в код.
-
----
-
-## Как можно помочь проекту
-
-### 1. Сообщение об ошибках
-
-Если вы нашли ошибку или некорректное поведение приложения, создайте Issue в репозитории и укажите:
-
-* подробное описание проблемы;
-* шаги для воспроизведения;
-* ожидаемое и фактическое поведение;
-* скриншоты (если возможно);
-* версию устройства и ОС.
+This document provides basic guidelines for contributing to the project, including reporting issues, suggesting improvements, and submitting changes.
 
 ---
 
-### 2. Предложение улучшений
+## How to Contribute
 
-Вы можете предложить улучшения или новые функции. В описании укажите:
+### 1. Reporting Issues
 
-* суть предложения;
-* зачем это нужно;
-* возможный способ реализации (если есть идеи).
+If you find a bug or unexpected behavior, please create an issue in the repository and include:
+
+* a clear description of the problem;
+* steps to reproduce;
+* expected and actual behavior;
+* screenshots (if applicable);
+* device and OS version.
 
 ---
 
-### 3. Процесс разработки
+### 2. Suggesting Features
 
-Для внесения изменений:
+Feature requests are welcome. Please describe:
 
-1. Сделайте fork репозитория.
-2. Создайте отдельную ветку:
+* the proposed feature;
+* why it would be useful;
+* possible implementation ideas (if any).
+
+---
+
+### 3. Development Workflow
+
+To contribute code changes:
+
+1. Fork the repository.
+2. Create a new branch for your feature or fix:
 
    ```
-   feature/название-функции
+   feature/your-feature-name
    ```
-3. Внесите изменения в проект Godot.
-4. Проверьте работоспособность в Godot Engine 4.4 и в среде сборки Aurora OS.
-5. Сделайте commit с понятным описанием изменений.
-6. Отправьте изменения в свой fork.
-7. Создайте Pull Request.
+3. Make your changes in the Godot project.
+4. Test the project locally on Godot Engine 4.4 and Aurora OS build environment.
+5. Commit your changes with clear messages.
+6. Push to your fork.
+7. Create a Pull Request.
 
 ---
 
-## Правила оформления кода
+## Code Style Guidelines
 
-* используйте читаемый и структурированный GDScript код;
-* соблюдайте соглашения именования Godot Engine;
-* разделяйте логику по сценам и скриптам;
-* избегайте жёстко прописанных значений (hardcode), где это возможно.
-
----
-
-## Структура проекта
-
-* `/scenes` — игровые сцены;
-* `/scripts` — логика на GDScript;
-* `/assets` — графика, звук, UI элементы;
-* `/screenshots` — скриншоты проекта (для документации);
-* `/doc` — документация проекта.
+* Use clear and readable GDScript code.
+* Follow Godot Engine recommended naming conventions.
+* Keep scenes modular and reusable.
+* Avoid hardcoded values when possible.
 
 ---
 
-## Требования к тестированию
+## Project Structure Notes
 
-Перед отправкой изменений убедитесь, что:
-
-* проект запускается без ошибок в Godot 4.4;
-* отсутствуют критические ошибки в сборке под Aurora OS;
-* интерфейс корректно работает в портретной ориентации;
-* все сцены загружаются корректно.
-
----
-
-## Требования к Pull Request
-
-Pull Request должен:
-
-* содержать понятное описание изменений;
-* быть сфокусирован на одной задаче;
-* не включать лишние изменения;
-* содержать скриншоты при изменении интерфейса.
+* `/scenes` — game scenes
+* `/scripts` — GDScript logic
+* `/assets` — images, sounds, UI elements
+* `/screenshots` — project screenshots (documentation only)
+* `/doc` — project documentation
 
 ---
 
-## Лицензия
+## Testing Requirements
 
-Внося изменения в проект, вы соглашаетесь, что ваш вклад распространяется под той же лицензией, что и основной проект (см. `LICENSE.md`).
+Before submitting changes, ensure:
 
+* the project runs without errors in Godot 4.4;
+* no crashes occur on Aurora OS build;
+* UI works in portrait orientation;
+* all scenes load correctly.
+
+---
+
+## Pull Request Guidelines
+
+Please ensure your Pull Request:
+
+* has a clear description of changes;
+* is focused on a single feature or fix;
+* does not include unrelated modifications;
+* includes screenshots if UI is affected.
+
+---
+
+## License
+
+By contributing to this project, you agree that your contributions will be licensed under the same license as the project (see `LICENSE.md`).

@@ -90,11 +90,10 @@ No additional launch conditions are required.
 
 ---
 ## Gallery
-![1](screenshots/img1.jpg)
-![2](screenshots/img2.jpg)
-![3](screenshots/img3.jpg)
-![4](screenshots/img4.jpg)
-![5](screenshots/img5.jpg)
+![1](screenshots/img1.png)
+![2](screenshots/img2.png)
+![3](screenshots/img3.png)
+
 
 ---
 ## Known Issues and Limitations

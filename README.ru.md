@@ -104,6 +104,6 @@
 
 ---
 ## Правила использования и участие в разработке
-- Лицензия: [LISENSE](LISENSE.MD)
-- Авторы проекта: [AUTHORS](AUTHORS.MD)
-- Участие в разработке: [CONTRIBUTING](CONTRIBUTING.md)
+- Лицензия: [LISENSE](#LISENSE)
+- Авторы проекта: [AUTHORS](#AUTHORS.MD)
+- Участие в разработке: [CONTRIBUTING](#CONTRIBUTING.md)

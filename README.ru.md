@@ -67,8 +67,8 @@
 ---
 ## Особенности сборки
 Общие рекомендации по сборке приложений для ОС Аврора:
-https://developer.auroraos.ru/doc/software_development/guides/port_apps/godot_export
-https://wiki.pmifi.ru/ru/guides/godot-aurora
+ - https://developer.auroraos.ru/doc/software_development/guides/port_apps/godot_export
+ - https://wiki.pmifi.ru/ru/guides/godot-aurora
 
 Для сборки проекта потребуется:
   - Операционная система Ubuntu Desktop 22.04 и выше или Alt Linux

@@ -90,9 +90,9 @@
 
 ---
 ## Галерея
-![1](screenshots/img1.jpg)
-![2](screenshots/img2.jpg)
-![3](screenshots/img3.jpg)
+![1](screenshots/img1.png)
+![2](screenshots/img2.png)
+![3](screenshots/img3.png)
 
 ---
 ## Известные ошибки и ограничения
